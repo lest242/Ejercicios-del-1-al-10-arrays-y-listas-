@@ -1,0 +1,19 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class gameManager : MonoBehaviour
+{
+    public int[] array = new int[3] { 10, 20, 30 };
+    public List<int> lista = new List<int>();
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        lista.Add(5);
+        lista.Add(15);
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
