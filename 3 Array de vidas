@@ -1,0 +1,19 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class gameManager : MonoBehaviour
+{
+    public int[] vidas = { 3, 2, 1 };
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        print("vida del jugador: " + vidas[0]);
+
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
