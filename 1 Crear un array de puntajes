@@ -1,0 +1,25 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class gameManager : MonoBehaviour
+{
+    public int[] puntajeJugadores = new int[5];
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        puntajeJugadores[0] = 67;
+        puntajeJugadores[1] = 13;
+        puntajeJugadores[2] = 89;
+        puntajeJugadores[3] = 56;
+        puntajeJugadores[4] = 43;
+
+        int puntajeJugador1 = puntajeJugadores[0];
+        Debug.Log("Puntaje del jugador 1: " + puntajeJugadores[0]);
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
