@@ -1,0 +1,25 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class gameManager : MonoBehaviour
+{
+    public List<string> objetos = new List<string>();
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        objetos.Add("Espada");
+        objetos.Add("Escudo");
+        objetos.Add("Poción");
+        objetos.Add("Arco");
+
+        Debug.Log("eliminaste este objeto: " + objetos[2]);
+        Debug.Log("objetos restantes: " + "espada, escudo y arco");
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
