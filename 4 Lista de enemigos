@@ -1,0 +1,21 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class gameManager : MonoBehaviour
+{
+    public List<string> enemigos = new List<string>();
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        enemigos.Add("Draven");
+        enemigos.Add("Kaelthar");
+        enemigos.Add("Morvok");
+        enemigos.Add("Zyrax");
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
