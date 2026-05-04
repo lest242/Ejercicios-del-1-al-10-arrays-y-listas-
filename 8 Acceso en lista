@@ -1,0 +1,23 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class gameManager : MonoBehaviour
+{
+    public List<string> elementos = new List<string>();
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        elementos.Add("celular");
+        elementos.Add("computadora");
+        elementos.Add("tablet");
+        elementos.Add("laptop");
+
+        print("Elemento de la posición 1: " + elementos[0]);
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
