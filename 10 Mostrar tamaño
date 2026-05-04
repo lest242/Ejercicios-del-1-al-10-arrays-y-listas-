@@ -1,0 +1,23 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class gameManager : MonoBehaviour
+{
+    public List<string> nombres = new List<string>();
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        nombres.Add("Jan");
+        nombres.Add("Mario");
+        nombres.Add("Pedro");
+
+        Debug.Log("Cantidad de elementos: " + nombres.Count);
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
