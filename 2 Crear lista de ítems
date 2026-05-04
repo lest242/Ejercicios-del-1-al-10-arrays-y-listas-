@@ -1,0 +1,20 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class gameManager : MonoBehaviour
+{
+    public List<string> inventario = new list<string>();
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        inventario.Add("Katana");
+        inventario.Add("Dinero");
+        inventario.Add("Resonancia");
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
